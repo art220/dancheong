@@ -56,9 +56,9 @@ import the `.itermcolors` file, or drop the `.toml` into your Alacritty config.
 
 The full pigment set, for every tool you stare at:
 
-- **9+ apps today**: VS Code, iTerm2, Alacritty, Kitty, Ghostty,
-  Windows Terminal, Warp, tmux, Zed — with JetBrains, Neovim, Sublime,
-  Obsidian and more rolling out to the same palette
+- **13 apps today**: VS Code, JetBrains IDEs, Neovim, Sublime Text,
+  Obsidian, iTerm2, Alacritty, Kitty, Ghostty, Windows Terminal,
+  Warp, tmux, Zed — more rolling out to the same palette
 - All four variants everywhere, byte-identical colors
 - Lifetime updates — new apps and variants included
 
