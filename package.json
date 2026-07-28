@@ -1,0 +1,62 @@
+{
+  "name": "dancheong-theme",
+  "displayName": "Dancheong — Korean Traditional Palette",
+  "description": "Four themes drawn from Dancheong, Korea's 1,500-year-old temple painting palette. Night, Dawn (light), Storm (high contrast), Mist (muted) — every color WCAG-contrast-checked.",
+  "version": "1.0.1",
+  "publisher": "dancheong",
+  "license": "MIT",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark theme",
+    "light theme",
+    "korean",
+    "dancheong",
+    "high contrast",
+    "muted",
+    "accessible"
+  ],
+  "galleryBanner": {
+    "color": "#16181f",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/art220/dancheong.git"
+  },
+  "homepage": "https://github.com/art220/dancheong",
+  "bugs": {
+    "url": "https://github.com/art220/dancheong/issues"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dancheong Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dancheong-night-color-theme.json"
+      },
+      {
+        "label": "Dancheong Dawn",
+        "uiTheme": "vs",
+        "path": "./themes/dancheong-dawn-color-theme.json"
+      },
+      {
+        "label": "Dancheong Storm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dancheong-storm-color-theme.json"
+      },
+      {
+        "label": "Dancheong Mist",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dancheong-mist-color-theme.json"
+      }
+    ]
+  }
+}

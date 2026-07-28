@@ -1,0 +1,32 @@
+# Dancheong Dawn — A dark theme drawn from Dancheong — the traditional Korean palette painted on temple and palace woodwork for 1,500 years.
+[colors.primary]
+background = "#f6f3ea"
+foreground = "#393d56"
+
+[colors.cursor]
+text = "#f6f3ea"
+cursor = "#ce3224"
+
+[colors.selection]
+text = "CellForeground"
+background = "#c8d3e6"
+
+[colors.normal]
+black = "#393d56"
+red = "#ce3224"
+green = "#397b49"
+yellow = "#936419"
+blue = "#2c71b0"
+magenta = "#8656c0"
+cyan = "#337873"
+white = "#dbd5c1"
+
+[colors.bright]
+black = "#5a6075"
+red = "#de4d41"
+green = "#428e54"
+yellow = "#aa741d"
+blue = "#3383cb"
+magenta = "#956cc8"
+cyan = "#3b8b85"
+white = "#eeeadd"

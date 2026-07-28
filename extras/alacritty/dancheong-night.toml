@@ -1,0 +1,32 @@
+# Dancheong Night — A dark theme drawn from Dancheong — the traditional Korean palette painted on temple and palace woodwork for 1,500 years.
+[colors.primary]
+background = "#16181f"
+foreground = "#d8dae5"
+
+[colors.cursor]
+text = "#16181f"
+cursor = "#e5b567"
+
+[colors.selection]
+text = "CellForeground"
+background = "#33405c"
+
+[colors.normal]
+black = "#232733"
+red = "#e05a4e"
+green = "#5fb573"
+yellow = "#e5b567"
+blue = "#5c9cd6"
+magenta = "#a582d0"
+cyan = "#4fb5ad"
+white = "#d8dae5"
+
+[colors.bright]
+black = "#5c6378"
+red = "#eb7f75"
+green = "#7fcc92"
+yellow = "#f0cc8f"
+blue = "#82b5e5"
+magenta = "#bda0dd"
+cyan = "#74ccc5"
+white = "#f0f1f7"

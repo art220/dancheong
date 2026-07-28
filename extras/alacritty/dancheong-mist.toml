@@ -1,0 +1,32 @@
+# Dancheong Mist — A dark theme drawn from Dancheong — the traditional Korean palette painted on temple and palace woodwork for 1,500 years.
+[colors.primary]
+background = "#20242d"
+foreground = "#bbbfd2"
+
+[colors.cursor]
+text = "#20242d"
+cursor = "#5b9893"
+
+[colors.selection]
+text = "CellForeground"
+background = "#44506a"
+
+[colors.normal]
+black = "#2f3440"
+red = "#c77871"
+green = "#619a6e"
+yellow = "#af8744"
+blue = "#6692b9"
+magenta = "#9c83b9"
+cyan = "#5b9893"
+white = "#bbbfd2"
+
+[colors.bright]
+black = "#727a92"
+red = "#d39690"
+green = "#81b08b"
+yellow = "#c3a066"
+blue = "#86a9c8"
+magenta = "#b19dc8"
+cyan = "#78afab"
+white = "#bbbfd2"

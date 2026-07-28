@@ -1,0 +1,32 @@
+# Dancheong Storm — A dark theme drawn from Dancheong — the traditional Korean palette painted on temple and palace woodwork for 1,500 years.
+[colors.primary]
+background = "#0e1015"
+foreground = "#dfe1ea"
+
+[colors.cursor]
+text = "#0e1015"
+cursor = "#dc9420"
+
+[colors.selection]
+text = "CellForeground"
+background = "#32405f"
+
+[colors.normal]
+black = "#1d212c"
+red = "#eb877d"
+green = "#59b66f"
+yellow = "#dc9420"
+blue = "#6ca8dd"
+magenta = "#b496da"
+cyan = "#47b3aa"
+white = "#dfe1ea"
+
+[colors.bright]
+black = "#646c82"
+red = "#ef9f97"
+green = "#79c48a"
+yellow = "#e4a948"
+blue = "#89b9e4"
+magenta = "#c2a9e0"
+cyan = "#68c3bb"
+white = "#eaecf1"
