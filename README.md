@@ -48,6 +48,11 @@ a six-hour session.
 
 **VS Code**: search `Dancheong` in the Extensions panel, or
 `ext install dancheong.dancheong-theme` — then `⌘K ⌘T` and pick a variant.
+([Marketplace page](https://marketplace.visualstudio.com/items?itemName=dancheong.dancheong-theme))
+
+**Cursor / Windsurf / VSCodium**: same — search `Dancheong` in Extensions.
+These editors install from [Open VSX](https://open-vsx.org/extension/dancheong/dancheong-theme),
+where Dancheong is also published.
 
 **iTerm2 / Alacritty**: free ports live in [`extras/`](extras/) —
 import the `.itermcolors` file, or drop the `.toml` into your Alacritty config.
