@@ -5,30 +5,31 @@
   "colors": {
     "editor.background": "#20242d",
     "editor.foreground": "#bbbfd2",
-    "editorLineNumber.foreground": "#484f64",
-    "editorLineNumber.activeForeground": "#8b92a6",
+    "editorLineNumber.foreground": "#858da1",
+    "editorLineNumber.activeForeground": "#979eae",
     "editorCursor.foreground": "#5b9893",
-    "editor.selectionBackground": "#44506a",
+    "editor.selectionBackground": "#384256",
     "editor.lineHighlightBackground": "#272b36",
     "editorWhitespace.foreground": "#484f64",
     "editorIndentGuide.background1": "#3a404e",
-    "editorBracketMatch.background": "#44506a",
+    "editorBracketMatch.background": "#384256",
     "sideBar.background": "#272b36",
-    "sideBar.foreground": "#8b92a6",
+    "sideBar.foreground": "#979eae",
     "sideBarTitle.foreground": "#bbbfd2",
     "activityBar.background": "#272b36",
     "activityBar.foreground": "#bbbfd2",
     "activityBarBadge.background": "#6692b9",
     "activityBarBadge.foreground": "#20242d",
     "statusBar.background": "#272b36",
-    "statusBar.foreground": "#8b92a6",
+    "statusBar.foreground": "#979eae",
     "statusBar.debuggingBackground": "#bc8055",
+    "statusBar.debuggingForeground": "#20242d",
     "titleBar.activeBackground": "#272b36",
     "titleBar.activeForeground": "#bbbfd2",
     "tab.activeBackground": "#20242d",
     "tab.activeForeground": "#bbbfd2",
     "tab.inactiveBackground": "#272b36",
-    "tab.inactiveForeground": "#6b738e",
+    "tab.inactiveForeground": "#979eae",
     "panel.background": "#20242d",
     "panelTitle.activeForeground": "#bbbfd2",
     "terminal.background": "#20242d",
@@ -51,9 +52,9 @@
     "terminal.ansiBrightWhite": "#bbbfd2",
     "input.background": "#2f3440",
     "input.foreground": "#bbbfd2",
-    "input.placeholderForeground": "#6b738e",
+    "input.placeholderForeground": "#979eae",
     "dropdown.background": "#2f3440",
-    "list.activeSelectionBackground": "#44506a",
+    "list.activeSelectionBackground": "#384256",
     "list.activeSelectionForeground": "#bbbfd2",
     "list.hoverBackground": "#3a404e",
     "button.background": "#6692b9",
@@ -77,7 +78,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#6b738e",
+        "foreground": "#858da1",
         "fontStyle": "italic"
       }
     },
@@ -172,7 +173,7 @@
         "keyword.operator"
       ],
       "settings": {
-        "foreground": "#8b92a6"
+        "foreground": "#979eae"
       }
     },
     {
@@ -180,7 +181,7 @@
         "punctuation"
       ],
       "settings": {
-        "foreground": "#8b92a6"
+        "foreground": "#979eae"
       }
     },
     {

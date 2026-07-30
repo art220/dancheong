@@ -5,7 +5,7 @@
   "colors": {
     "editor.background": "#f6f3ea",
     "editor.foreground": "#393d56",
-    "editorLineNumber.foreground": "#a7adc1",
+    "editorLineNumber.foreground": "#656e89",
     "editorLineNumber.activeForeground": "#5a6075",
     "editorCursor.foreground": "#ce3224",
     "editor.selectionBackground": "#c8d3e6",
@@ -23,12 +23,13 @@
     "statusBar.background": "#eeeadd",
     "statusBar.foreground": "#5a6075",
     "statusBar.debuggingBackground": "#aa571e",
+    "statusBar.debuggingForeground": "#f6f3ea",
     "titleBar.activeBackground": "#eeeadd",
     "titleBar.activeForeground": "#393d56",
     "tab.activeBackground": "#f6f3ea",
     "tab.activeForeground": "#393d56",
     "tab.inactiveBackground": "#eeeadd",
-    "tab.inactiveForeground": "#7a839c",
+    "tab.inactiveForeground": "#5a6075",
     "panel.background": "#f6f3ea",
     "panelTitle.activeForeground": "#393d56",
     "terminal.background": "#f6f3ea",
@@ -51,7 +52,7 @@
     "terminal.ansiBrightWhite": "#eeeadd",
     "input.background": "#e6e1d0",
     "input.foreground": "#393d56",
-    "input.placeholderForeground": "#7a839c",
+    "input.placeholderForeground": "#5a6075",
     "dropdown.background": "#e6e1d0",
     "list.activeSelectionBackground": "#c8d3e6",
     "list.activeSelectionForeground": "#393d56",
@@ -77,7 +78,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#7a839c",
+        "foreground": "#656e89",
         "fontStyle": "italic"
       }
     },

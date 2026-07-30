@@ -1,13 +1,13 @@
 {
   "name": "dancheong-theme",
   "displayName": "Dancheong — Korean Traditional Palette",
-  "description": "Four themes drawn from Dancheong, Korea's 1,500-year-old temple painting palette. Night, Dawn (light), Storm (high contrast), Mist (muted) — every color WCAG-contrast-checked.",
-  "version": "1.0.1",
+  "description": "Four themes drawn from Dancheong, Korea's 1,500-year-old temple painting palette. Night, Dawn (light), Storm (high contrast), Mist (muted) — every text/background pair WCAG-gated at build time.",
+  "version": "1.1.0",
   "publisher": "dancheong",
   "license": "MIT",
   "icon": "icon.png",
   "engines": {
-    "vscode": "^1.75.0"
+    "vscode": "^1.83.0"
   },
   "categories": [
     "Themes"

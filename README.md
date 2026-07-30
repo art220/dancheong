@@ -36,10 +36,14 @@
 ## Why another theme?
 
 Most themes are tuned by eye. Dancheong is **tuned by a build pipeline**:
-every foreground color is generated against its background to hit a WCAG
-contrast target, and the build *fails* if any pair falls below the gate
-(7:1 body text, 4.5:1 accents, 3:1 comments). The palette is one JSON file;
-every port is generated from it, so all apps match exactly.
+every text color is checked against every background it ships on — editor,
+sidebar, inputs, terminal, even the selection highlight — **222 pairs per
+build** — and the build *fails* if any pair misses its gate: 7:1 body text;
+4.5:1 for UI text, comments, and syntax accents; 3:1 for text on selection,
+ANSI colors, and diagnostics. Two documented exemptions: decorative ink
+(whitespace markers, indent guides) is intentionally quiet, and the light
+variant keeps ANSI white light per terminal convention. The palette is one
+JSON file; every port is generated from it, so all apps match exactly.
 
 Colors aren't decoration here. Contrast is why your eyes last through
 a six-hour session.

@@ -9,7 +9,7 @@ cursor = "#dc9420"
 
 [colors.selection]
 text = "CellForeground"
-background = "#32405f"
+background = "#29344d"
 
 [colors.normal]
 black = "#1d212c"
