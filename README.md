@@ -37,13 +37,28 @@
 
 Most themes are tuned by eye. Dancheong is **tuned by a build pipeline**:
 every text color is checked against every background it ships on — editor,
-sidebar, inputs, terminal, even the selection highlight — **222 pairs per
-build** — and the build *fails* if any pair misses its gate: 7:1 body text;
-4.5:1 for UI text, comments, and syntax accents; 3:1 for text on selection,
-ANSI colors, and diagnostics. Two documented exemptions: decorative ink
-(whitespace markers, indent guides) is intentionally quiet, and the light
-variant keeps ANSI white light per terminal convention. The palette is one
-JSON file; every port is generated from it, so all apps match exactly.
+sidebar, inputs, terminal, the selection highlight, buttons and badges, even
+the syntax colors inside the autocomplete popup — **290 pairs per build** —
+and the build *fails* if any pair misses its gate: 7:1 body text; 4.5:1 for
+UI text, comments, syntax accents, and text on colored surfaces; 3:1 for text
+on selection, ANSI colors, diagnostics, and icons. Three documented
+exemptions: decorative ink (whitespace markers, indent guides) is
+intentionally quiet, the light variant keeps ANSI white light per terminal
+convention, and inactive UI states (unfocused tabs, git-ignored files) are
+held to 3:1 rather than 4.5:1 — WCAG 1.4.3 exempts inactive components, but
+we refuse to let them go lower than that.
+
+The gate decides design questions, not just failures. Inlay hints ship with a
+transparent background because a tinted one measured 3.1–3.5:1; on the editor
+background they read at 4.6:1. Deprecated symbols are struck through instead
+of dimmed, because a strikethrough costs no contrast and a dimmer color does.
+
+**417 workbench keys and 37 semantic token rules** per variant. Semantic
+highlighting means the language server's answer wins over a regex guess — a
+readonly binding colors as a constant, a parameter reads differently from a
+local, and `Foo` in type position differs from `Foo` in value position.
+The palette is one JSON file; every port is generated from it, so all apps
+match exactly.
 
 Colors aren't decoration here. Contrast is why your eyes last through
 a six-hour session.

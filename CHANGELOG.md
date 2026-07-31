@@ -1,5 +1,28 @@
 # Changelog
 
+## 1.2.0 — 2026-07-31
+
+Coverage release. 1.1.0 made the colors honest; this one makes them reach the
+rest of the editor.
+
+- **Semantic highlighting**, which the theme previously did not support at all.
+  37 semantic rules mean a language server's answer wins over a regex guess:
+  a readonly binding is coloured as a constant, a parameter is distinguished
+  from a local, `Foo` in type position differs from `Foo` in value position,
+  and deprecated symbols are struck through rather than dimmed — a strikethrough
+  costs no contrast, a dimmer colour does.
+- **Workbench coverage 67 → 417 keys.** Bracket-pair colours, inlay hints,
+  ghost text (inline suggestions), sticky scroll, peek view, the suggest and
+  hover widgets, minimap and overview ruler, notebooks, testing, the merge
+  editor, debug icons, symbol icons, the command centre, and the settings and
+  welcome pages are all themed now. Anything left unset falls back to VS Code's
+  defaults, which is how a theme ends up with colours it never chose.
+- **The contrast gate grew with it: 222 → 290 pairs.** New checks cover text
+  *on* coloured surfaces (buttons, badges, the error and warning status bar),
+  syntax colours inside the suggest and hover widgets, and inactive UI states.
+- Inlay hints ship with a transparent background on purpose. A tinted backdrop
+  dropped them to 3.1–3.5:1; on the editor background they read at 4.6:1.
+
 ## 1.1.0 — 2026-07-30
 
 Contrast-audit release. An adversarial audit showed the old build gate only
