@@ -17,7 +17,12 @@ rest of the editor.
   editor, debug icons, symbol icons, the command centre, and the settings and
   welcome pages are all themed now. Anything left unset falls back to VS Code's
   defaults, which is how a theme ends up with colours it never chose.
-- **The contrast gate grew with it: 222 → 290 pairs.** New checks cover text
+- **The contrast gate grew with it, and got honest about its own count.**
+  It now reports *distinct* pairs — 177 across the four variants. Counting
+  checks rather than pairs had been inflating the figure, because the palette
+  reuses colours across roles (the error colour **is** the red accent, the
+  cursor **is** the yellow). Where one pair carried two thresholds, the
+  stricter one wins. New coverage: text
   *on* coloured surfaces (buttons, badges, the error and warning status bar),
   syntax colours inside the suggest and hover widgets, and inactive UI states.
 - Inlay hints ship with a transparent background on purpose. A tinted backdrop
@@ -27,8 +32,9 @@ rest of the editor.
 
 Contrast-audit release. An adversarial audit showed the old build gate only
 checked 11 colors per variant against a single background. The gate now
-verifies **all 222 shipped foreground/background pairs** per build, and the
-palette was retuned until every pair passes:
+verifies **every shipped foreground/background pair** per build — 222 checks at
+the time, though 1.2.0 later found that figure was counting the same pair more
+than once; see that entry. The palette was retuned until every pair passes:
 
 - Comments and line numbers now meet WCAG AA (≥4.5:1) in all four variants —
   line numbers previously bottomed out at 1.8:1

@@ -38,8 +38,8 @@
 Most themes are tuned by eye. Dancheong is **tuned by a build pipeline**:
 every text color is checked against every background it ships on — editor,
 sidebar, inputs, terminal, the selection highlight, buttons and badges, even
-the syntax colors inside the autocomplete popup — **290 pairs per build** —
-and the build *fails* if any pair misses its gate: 7:1 body text; 4.5:1 for
+the syntax colors inside the autocomplete popup — **177 distinct pairs per
+build** — and the build *fails* if any pair misses its gate: 7:1 body text; 4.5:1 for
 UI text, comments, syntax accents, and text on colored surfaces; 3:1 for text
 on selection, ANSI colors, diagnostics, and icons. Three documented
 exemptions: decorative ink (whitespace markers, indent guides) is
