@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.2.1 — 2026-08-03
+
+No colour changed. The 1.2.0 listing quoted the gate as "290 pairs", which was
+counting checks rather than distinct pairs; the correct figure is 177 and it is
+now the one shipped in the README everywhere the extension is listed. Details
+in the 1.2.0 entry below.
+
+Also new, and free: the palette now has its own Neovim colorscheme at
+[art220/dancheong.nvim](https://github.com/art220/dancheong.nvim) — same four
+variants, MIT licensed.
+
 ## 1.2.0 — 2026-07-31
 
 Coverage release. 1.1.0 made the colors honest; this one makes them reach the

@@ -73,16 +73,23 @@ a six-hour session.
 These editors install from [Open VSX](https://open-vsx.org/extension/dancheong/dancheong-theme),
 where Dancheong is also published.
 
+**Neovim**: also free, in its own repository —
+[art220/dancheong.nvim](https://github.com/art220/dancheong.nvim). Same four
+variants, 376 highlight groups each, Tree-sitter captures and LSP semantic
+tokens, a lualine theme per variant, MIT licensed.
+
 **iTerm2 / Alacritty**: free ports live in [`extras/`](extras/) —
 import the `.itermcolors` file, or drop the `.toml` into your Alacritty config.
 
 ## Dancheong PRO
 
-The full pigment set, for every tool you stare at:
+The editors are free. PRO is the rest of the desk — the tools you keep open
+next to the editor, in the same pigments:
 
-- **13 apps today**: VS Code, JetBrains IDEs, Neovim, Sublime Text,
-  Obsidian, iTerm2, Alacritty, Kitty, Ghostty, Windows Terminal,
-  Warp, tmux, Zed — more rolling out to the same palette
+- **9 more apps**: JetBrains IDEs, Sublime Text, Obsidian, Kitty, Ghostty,
+  Windows Terminal, Warp, tmux, Zed — 13 in total counting the free ports
+- Not thin ports. The JetBrains scheme sets 156 attributes of its own rather
+  than inheriting Darcula for the console, diffs and debugger
 - All four variants everywhere, byte-identical colors
 - Lifetime updates — new apps and variants included
 
